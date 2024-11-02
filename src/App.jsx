@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
       <div className={`book-container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
-        <BackgroundMusic /> {/* Asegúrate de que esté siempre aquí */}
+        <BackgroundMusic />
         <Routes location={visiblePage}>
           <Route path="/" element={<HomePage />} />
           <Route path="/intro" element={<Intro />} />
