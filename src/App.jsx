@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import Music from "./components/Music";
 import HomePage from './components/HomePage';
 import Intro from './components/Intro';
 import Index from './components/Index';
@@ -28,6 +29,7 @@ function App() {
   return (
     <div className="d-flex justify-content-center align-items-center vh-100">
       <div className={`book-container ${fadeOut ? 'fade-out' : 'fade-in'}`}>
+      <Music />
         <Routes location={visiblePage}>
           <Route path="/" element={<HomePage />} />
           <Route path="/intro" element={<Intro />} />
