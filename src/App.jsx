@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import BackgroundMusic from "./components/Music"; // Renombrado para coincidir
+import BackgroundMusic from "./components/Music";
 import HomePage from './components/HomePage';
 import Intro from './components/Intro';
-import Index from './components/Index';
+import Indice from './components/Indice';
 import AboutPage from './components/AboutPage';
 import ProjectsPage from './components/ProjectsPage';
 import PersonalGrowth from './components/PersonalGrowth';
@@ -32,7 +32,7 @@ function App() {
         <Routes location={visiblePage}>
           <Route path="/" element={<HomePage />} />
           <Route path="/intro" element={<Intro />} />
-          <Route path="/index" element={<Index />} />
+          <Route path="/indice" element={<Indice />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/personalg" element={<PersonalGrowth />} />

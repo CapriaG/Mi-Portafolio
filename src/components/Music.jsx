@@ -9,12 +9,10 @@ function BackgroundMusic() {
 
   useEffect(() => {
     const audio = audioRef.current;
-    audio.loop = true; // Establecer el loop en true para reiniciar al final
+    audio.loop = true;
 
-    // Reproduce la música al montar el componente
     audio.play().catch((error) => console.log("Error al reproducir la música:", error));
 
-    // Pausa y reinicia la música al desmontar el componente
     return () => {
       audio.pause();
       audio.currentTime = 0;

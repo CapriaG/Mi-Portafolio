@@ -17,7 +17,7 @@ const Intro = () => {
         <p className="text-center">
           Aquí encontrarás una colección de mis proyectos más destacados, que reflejan mi pasión por el desarrollo web y mi compromiso con la excelencia. A través de este recorrido, podrás explorar mis habilidades en la creación de aplicaciones interactivas, diseño de interfaces y soluciones innovadoras.
         </p>
-        <PageTurnButton direction="next" to="/index" label="—————————————>" className="custom-button-intro" />
+        <PageTurnButton direction="next" to="/indice" label="—————————————>" className="custom-button-intro" />
       </div>
     </div>
   );
