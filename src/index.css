@@ -409,6 +409,7 @@ body{
 
   .about-right h1 {
     font-size: 2rem;
+    margin-top: 15px;
   }
 
   .about-right p {
@@ -719,7 +720,7 @@ body{
 
   .growth-description {
     font-size: 0.9rem;
-    margin-left: 0;
+    margin-left: 8px;
     margin-top: 5px;
   }
 
