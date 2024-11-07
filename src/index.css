@@ -397,6 +397,7 @@ body{
   .profile-image {
     max-width: 100%;
     margin: 0;
+    border-radius: 0;
   }
 
   .about-left h2, .about-left h3 {
@@ -428,7 +429,7 @@ body{
   }
 
   .about-left{
-    padding: 0 10px;
+    padding: 0 1px;
   }
 
   .about-right{
