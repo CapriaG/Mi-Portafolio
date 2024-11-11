@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaFilePdf } from 'react-icons/fa';
 import BackButton from './BackButton';
 import PageTurnButton from './PageTurnButton';
 
@@ -100,6 +100,9 @@ const ContactPage = () => {
         </a>
         <a href="https://wa.me/+5491173639452" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
+        </a>
+        <a href="/CV-Gabriel-Capria.pdf" target="_blank" rel="noopener noreferrer" download>
+          <FaFilePdf />
         </a>
       </div>
 
