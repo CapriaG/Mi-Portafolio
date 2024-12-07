@@ -16,7 +16,7 @@ const Index = () => {
       <ul className="index-list">
         <li>1. Quién soy</li>
         <li>2. Mis trabajos</li>
-        <li>3. Crecimiento personal</li>
+        <li>3. Mi Camino de Aprendizaje</li>
         <li>4. Contáctame</li>
       </ul>
 

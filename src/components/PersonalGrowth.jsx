@@ -23,9 +23,9 @@ const PersonalGrowth = () => {
       </div>
 
       <div className="content-section">
-        <h1 className="growth-title">3. Mi Crecimiento Personal</h1>
+        <h1 className="growth-title">3. Mi Camino de Aprendizaje</h1>
         <p className="growth-description">
-          El crecimiento personal para mí significa más que una rutina, es un estilo de vida en constante evolución. <br></br> Me despierto a las 5 a.m. para asegurarme de comenzar cada día con propósito, y a las 7 a.m., me encuentro en el gimnasio, impulsándome a superar mis límites físicos y mentales. Controlar mis calorías no es solo una disciplina, sino una forma de honrar mi cuerpo y mantenerme enfocado. Estoy construyendo un podcast personal, un proyecto que me permite expresar mis pensamientos y compartir mi pasión, mientras me sumerjo profundamente en el aprendizaje de programación, una habilidad que me reta y me inspira. Más allá de estos hábitos, lo que realmente me motiva es dar significado a cada acción. Cada pequeña meta alcanzada, cada avance, se llena de orgullo, reflejando mi compromiso de vivir cada día como una versión mejor de mí mismo.
+        A lo largo de mi carrera como desarrollador el aprendizaje ha sido una constante.<br></br> Comencé trabajando de manera independiente como freelancer, donde cada proyecto me permitió adquirir nuevas habilidades y enfrentar desafíos que impulsaron mi crecimiento profesional. He aprendido a utilizar herramientas como Figma, React y Bootstrap, perfeccionando no solo mis habilidades técnicas, sino también mi capacidad para entender las necesidades de los clientes y transformarlas en soluciones funcionales. <br></br> Para mí, el aprendizaje no es solo una etapa, sino un proceso continuo y por eso estoy comprometido con mejorar cada día, explorar nuevas tecnologías y adaptarme a los cambios para seguir creciendo como profesional y contribuir de manera significativa a los proyectos en los que participo.
         </p>
       </div>
 
@@ -36,9 +36,6 @@ const PersonalGrowth = () => {
             alt="Crecimiento personal" 
             className="growth-image" 
           />
-        </div>
-        <div className="bottom-text">
-          <h2 className="right-title">Pasión - Ambición - Enfoque</h2>
         </div>
         {/* Flecha para avanzar */}
         <PageTurnButton direction="next" to="/contact" label="————————————————>" className="custom-button" />
