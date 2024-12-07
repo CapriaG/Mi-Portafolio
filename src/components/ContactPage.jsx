@@ -101,7 +101,7 @@ const ContactPage = () => {
         <a href="https://wa.me/+5491173639452" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
         </a>
-        <a href="/CV-Gabriel-Capria.pdf" target="_blank" rel="noopener noreferrer" download>
+        <a href="/CurriculumGabrielCapria.pdf" target="_blank" rel="noopener noreferrer" download>
           <FaFilePdf />
         </a>
       </div>
