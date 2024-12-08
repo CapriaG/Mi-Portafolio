@@ -699,7 +699,7 @@ body{
 
   .carousel-section, .details-section {
     width: 100%;
-    padding: 0;
+    padding: 20px 0;
   }
 
   .carousel-section{
@@ -872,6 +872,7 @@ body{
     font-size: 0.9rem;
     margin-left: 8px;
     margin-top: 5px;
+    margin-bottom: 40px;
     text-align: center;
   }
 
