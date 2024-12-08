@@ -15,9 +15,10 @@ const Index = () => {
       {/* Contenedor del índice */}
       <ul className="index-list">
         <li>1. Quién soy</li>
-        <li>2. Mis trabajos</li>
-        <li>3. Mi Camino de Aprendizaje</li>
-        <li>4. Contáctame</li>
+        <li>2. Qué tecnologías utilizo</li>
+        <li>3. Mis trabajos</li>
+        <li>4. Mi Camino de Aprendizaje</li>
+        <li>5. Contáctame</li>
       </ul>
 
       {/* Flecha para ir a la siguiente sección */}

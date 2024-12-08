@@ -51,7 +51,7 @@ const ProjectsPage = () => {
 
       {/* Sección derecha con el título y descripción */}
       <div className="details-section">
-        <h1 className="projects-title">2. Trabajos</h1>
+        <h1 className="projects-title">3. Trabajos</h1>
         <h2 className="projects-subtitle">Proyectos destacados</h2>
         <p className="projects-description">
           Echa un vistazo a algunos de mis proyectos recientes, en los que apliqué tecnologías como React, Node.js, y Bootstrap, entre otros. Cada proyecto representa una oportunidad para llevar mis habilidades al siguiente nivel y crear soluciones innovadoras y efectivas. 👨‍💻🚀

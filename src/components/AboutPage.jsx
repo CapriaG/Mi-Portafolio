@@ -12,7 +12,7 @@ const About = () => {
       <div className="about-left d-flex flex-column align-items-center">
         <img src={Me} alt="Profile" className="profile-image" />
         <h2>Soy Gabriel Capria</h2>
-        <h3>Apasionado por la innovación, el detalle y el crecimiento personal.</h3>
+        <h3>Me apasiona la innovación, el detalle y el aprendizaje continuo.</h3>
       </div>
       
       {/* Sección derecha */}
@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
       {/* Flecha para avanzar */}
-      <PageTurnButton direction="next" to="/projects" label="————————————————>" className="custom-button" />
+      <PageTurnButton direction="next" to="/technologies" label="————————————————>" className="custom-button" />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import Intro from './components/Intro';
 import Indice from './components/Indice';
 import AboutPage from './components/AboutPage';
+import Technologies from './components/Technologies';
 import ProjectsPage from './components/ProjectsPage';
 import PersonalGrowth from './components/PersonalGrowth';
 import ContactPage from './components/ContactPage';
@@ -34,6 +35,7 @@ function App() {
           <Route path="/intro" element={<Intro />} />
           <Route path="/indice" element={<Indice />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/technologies" element={<Technologies />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/personalg" element={<PersonalGrowth />} />
           <Route path="/contact" element={<ContactPage />} />

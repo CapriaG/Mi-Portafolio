@@ -50,7 +50,7 @@ const ContactPage = () => {
       {/* Flecha de retroceso */}
       <BackButton direction="back" to="/" label="←" className="back-button" />
 
-      <h1 className="contact-title">4. CONTACTAME</h1>
+      <h1 className="contact-title">5. CONTACTAME</h1>
 
       {/* Formulario de contacto */}
       <form onSubmit={handleSubmit} className="contact-form">
