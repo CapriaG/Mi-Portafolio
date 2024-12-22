@@ -9,12 +9,12 @@ import PageTurnButton from './PageTurnButton';
 const projects = [
   {
     image: Ncero,
-    techStack: 'React - Node.js - Bootstrap - Canva',
+    techStack: 'React - Node.js - Bootstrap - In Design',
     link: 'https://nivelceroarg.com.ar/',
   },
   {
     image: Mh,
-    techStack: 'React - Node.js - Bootstrap - Canva',
+    techStack: 'React - Node.js - Bootstrap - In Design',
     link: 'https://mhcortinas.com.ar/',
   },
   // Otros proyectos si es necesario

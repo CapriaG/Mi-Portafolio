@@ -15,7 +15,7 @@ const Intro = () => {
       {/* Sección derecha */}
       <div className="right-side p-4 d-flex flex-column justify-content-center align-items-center">
         <p className="text-center">
-          Aquí encontrarás una colección de mis proyectos más destacados, que reflejan mi pasión por el desarrollo web y mi compromiso con la excelencia. A través de este recorrido, podrás explorar mis habilidades en la creación de aplicaciones interactivas, diseño de interfaces y soluciones innovadoras.
+          Aquí encontrarás una colección de mis proyectos más destacados, que reflejan mi pasión por el diseño y mi compromiso con la excelencia. A través de este recorrido, podrás explorar mis habilidades en la creación de aplicaciones interactivas, diseño de interfaces y soluciones innovadoras.
         </p>
         <PageTurnButton direction="next" to="/indice" label="—————————————>" className="custom-button-intro" />
       </div>
