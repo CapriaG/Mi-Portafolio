@@ -19,7 +19,7 @@ const About = () => {
       <div className="about-right d-flex flex-column justify-content-center align-items-center">
         <h1>1. ¿Quién soy?</h1>
         <p>
-        Soy un programador diseñador comprometido con crear aplicaciones interactivas y eficientes. Con experiencia en varios proyectos freelance, mi objetivo es aportar mis habilidades en proyectos innovadores y colaborativos, formando parte de un equipo profesional que valore la creatividad y la calidad. 💻✨
+        Soy programador y diseñador, estoy comprometido en crear aplicaciones interactivas y eficientes. Tengo experiencia en la creación de páginas responsivas, como asi también, generando sus logos y el rediseño de los mismos. Mi objetivo es aportar mis habilidades en proyectos innovadores y colaborativos, formando parte de un equipo profesional que valore la creatividad y la calidad. 💻✨
         </p>
       </div>
 
